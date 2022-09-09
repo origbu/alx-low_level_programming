@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
-*main: prints using puts() function
-*Return: 0 prints something
+* main - Entry point of the program
+*
+* return: Always 0 (Success)
 */
 int main(void)
 {	puts("\"Programming is like building a multilingual puzzle");
