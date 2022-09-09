@@ -6,7 +6,7 @@
 /**
  * main - starting of the code
  *
- * REturn: 0 (sucess)
+ * Return: 0 (sucess)
  */
 int main(void)
 {
