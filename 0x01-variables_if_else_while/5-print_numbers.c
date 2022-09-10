@@ -10,12 +10,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%d", i);
-		if (x < 9)
-		{
-			printf(",");
-		}
-		printf('\n');
-	}
+		putchar(i);
+		putchar('\n');
 	return (0);
 }
