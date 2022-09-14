@@ -4,8 +4,7 @@
  */
 void print_alphabet_x10(void)
 {
-	int i;
-	char ch;
+	int i, ch;
 
 	i = '0';
 	while (i < 10)
