@@ -5,7 +5,7 @@
  * @a:first input
  * @b:second input
  *
- * Return:result
+ * Return:multiplication result of two inputs
  */
 int mul(int a, int b)
 {
