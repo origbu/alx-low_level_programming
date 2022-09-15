@@ -2,12 +2,14 @@
 
 /**
  * _isupper-checks for uppercase character
- * @c:single output character
+ * @c:input
  *
  * Return:1 if int c is uppercase, 0 if otherwise
  */
 int _isupper(int c)
 {
+	int c;
+
 	if ((c >= 'A') && (c <= 'Z'))
 	{
 		return (1);
