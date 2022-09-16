@@ -3,13 +3,13 @@
  * print_line-draws a straight line in the terminal
  * @n:input number of times to print '_'
  *
- * Return:a staright line
+ * Return:void
  */
 void print_line(int n)
 {
 	int i;
 
-	for (n <= 0)
+	if (n <= 0)
 	{
 		_putchar('\n')
 	}
