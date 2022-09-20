@@ -6,6 +6,8 @@
  *
  * Return:void
  */
+#include "main.h"
+
 void puts_half(char *str)
 {
 	int i, n, len;
