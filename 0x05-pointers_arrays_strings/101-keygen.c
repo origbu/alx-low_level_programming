@@ -8,7 +8,7 @@
 #include "stdlib.h"
 #include "time.h"
 
-int main(void)
+int main()
 {
 	int pass, sum;
 
@@ -20,7 +20,7 @@ int main(void)
 		sum += pass;
 		printf("%c", pass);
 	}
-	printf("%c", 2772, pass);
+	printf(" %d %c", 2772, pass);
 
 	return (0);
 }
