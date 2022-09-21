@@ -20,7 +20,7 @@ int main()
 		sum += pass;
 		printf("%c", pass);
 	}
-	printf(" %d %c", 2772, pass);
+	printf("%c", 2772 - pass);
 
 	return (0);
 }
