@@ -17,17 +17,17 @@ int _atoi(char *s)
 	index = 0;
 	res = 0;
 
-	while (*(s + index) !='\0')
+	while (*(s + index) != '\0')
 	{
 		now = *(s + index);
 		if (now == '-')
 		{
 			sign *= -1;
 		}
-		if (now >='0' && now <= '9')
+		if (now >= '0' && now <= '9')
 		{
 			ind2 = index;
-			while (*(s + ind2) > 47 && *(s + ind2) <58)
+			while (*(s + ind2) > 47 && *(s + ind2) < 58)
 			{
 				res = (res * 10) + *(s + ind2) - '0';
 				ind2++;
