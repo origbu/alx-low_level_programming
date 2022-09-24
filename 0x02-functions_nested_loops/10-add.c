@@ -4,7 +4,7 @@
  * @a:first integer to be added
  * @b:second integer to be added
  *
- * return:sum
+ * Return:sum
  */
 int add(int a, int b)
 {
