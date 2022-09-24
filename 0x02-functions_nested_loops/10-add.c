@@ -4,13 +4,13 @@
  * @a:first integer to be added
  * @b:second integer to be added
  *
- * return:sum of a and b
+ * return:sum
  */
 int add(int a, int b)
 {
 	int sum;
 
 	sum = a + b;
-	
+
 	return (sum);
 }
