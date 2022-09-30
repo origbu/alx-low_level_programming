@@ -11,9 +11,6 @@
 
 int main(argc __atrribute__((unused)), char *argv[])
 {
-	int i;
-	
-	for (i = 0; i < argc; i++)
-		printf("%s\n", argv[0]);
+		printf("%s\n", *argv);
 	return (0);
 }
