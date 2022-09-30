@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main(int argc, char *argv[] __atrribute__((unused)))
+int main(int argc, char **argv)
 {
 	int i;
 	
