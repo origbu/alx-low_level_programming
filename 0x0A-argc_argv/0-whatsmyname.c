@@ -12,6 +12,6 @@
 int main(argc, char *argv[])
 {
 	if (argc > 0)
-		printf("%s\n", argv[])
+		printf("%s\n", argv[i])
 	return (0);
 }
