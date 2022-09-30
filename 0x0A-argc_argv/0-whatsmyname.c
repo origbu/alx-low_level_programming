@@ -9,7 +9,7 @@
  * Return:0
  */
 
-int main(argc, (char *argv[]))
+int main(argc __atrribute__((unused)), char *argv[])
 {
 	int i;
 	
