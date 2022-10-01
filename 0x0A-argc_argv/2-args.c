@@ -13,6 +13,6 @@ int main(int argc, char *argv[])
 	int i;
 
 	for (i = 0; i < argc; i++)
-		print("%d\n", i, argv[i]);
+		print("%d\n", argc);
 	return (0);
 }
